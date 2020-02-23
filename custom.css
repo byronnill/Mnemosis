@@ -1,0 +1,62 @@
+.heading {
+    font-family: 'Jura';
+    font-weight: bold;
+}
+
+.subheading {
+    font-family: 'Quantico';
+}
+
+a#title {
+    color: black;
+}
+
+a#title:hover {
+    text-decoration: none;
+}
+
+#web_title {
+    font-size: 100px;
+    font-family: 'Jura';
+}
+
+#web_subtitle {
+    font-size: 40px;
+    font-family: 'Quantico';
+}
+
+.jumbotron {
+    background-color: #C8F4F9;
+    margin-bottom: 0;
+}
+
+#login_box {
+    background-color: #EEB5EB;
+    padding: 30px;
+}
+
+#register_box {
+    background-color: #C26DBC;
+    padding: 30px;
+}
+
+.btn, .btn-custom {
+    background-color: #3CACAE;
+    border-color: #3CACAE;
+    color: white;
+}
+
+.btn-custom:enabled:hover,
+.btn-custom:enabled:active,
+.btn-custom:enabled:hover:active {
+    background-color: #236A6B;
+    border-color: #236A6B;
+    color: white;
+}
+
+.btn-custom:disabled:hover,
+.btn-custom:disabled:active,
+.btn-custom:disabled:hover:active {
+    cursor: default;
+    color: white;
+}
