@@ -7,6 +7,13 @@
     font-family: 'Quantico', sans-serif;
 }
 
+
+#logo {
+    max-height: 300px;
+    float: left;
+    margin-right: 40px;
+}
+
 a#title {
     color: black;
 }
@@ -25,9 +32,18 @@ a#title:hover {
     font-family: 'Quantico', sans-serif;
 }
 
+#titles {
+    padding-top: 50px;
+    padding-bottom: 0px;
+}
+
 .jumbotron {
     background-color: #C8F4F9;
     margin-bottom: 0;
+}
+
+#startup_box {
+    margin-top: 50px;
 }
 
 #login_box {
