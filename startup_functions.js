@@ -1,9 +1,11 @@
-$("#email_login, #password_login").on("keypress", function() {
+$("#email_login, #password_login").on("keyup", function() {
     let holder1 = $("#email_login").val().length;
     let holder2 = $("#password_login").val().length;
 
     if (holder1 !== 0 && holder2 !== 0 && $("#email_login").is(":valid")) {
-        $("#submit_login").removeAttr("disabled");
+        $("#submit_login").prop("disabled", false);
+    } else {
+        $("#submit_login").prop("disabled", true);
     }
 });
 

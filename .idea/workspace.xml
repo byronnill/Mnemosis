@@ -5,9 +5,8 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/main.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main_styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/main_styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/Logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/media/Logo.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/Logo.psd" beforeDir="false" afterPath="$PROJECT_DIR$/media/Logo.psd" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/startup.html" beforeDir="false" afterPath="$PROJECT_DIR$/startup.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/startup_functions.js" beforeDir="false" afterPath="$PROJECT_DIR$/startup_functions.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/startup_styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/startup_styles.css" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -96,7 +95,7 @@
       <updated>1582435721327</updated>
       <workItem from="1582435727911" duration="8762000" />
       <workItem from="1582448865795" duration="4671000" />
-      <workItem from="1582460298093" duration="8214000" />
+      <workItem from="1582460298093" duration="10114000" />
     </task>
     <servers />
   </component>

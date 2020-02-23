@@ -12,29 +12,6 @@
     float: left;
 }
 
-#over {
-    z-index: 2;
-    position: relative;
-    animation: crotation 8s infinite linear;
-}
-
-#under {
-    z-index: 1;
-    position: relative;
-    left: -300px;
-    animation: ccrotation 8s infinite linear;
-}
-
-@keyframes crotation {
-    from { transform: rotate(0deg); }
-    to { transform: rotate(359deg); }
-}
-
-@keyframes ccrotation {
-    from { transform: rotate(359deg); }
-    to { transform: rotate(0deg); }
-}
-
 #web_title {
     font-size: 100px;
     font-family: 'Jura', sans-serif;
@@ -48,7 +25,7 @@
 #titles {
     color: black;
     position: relative;
-    left: -250px;
+    left: 50px;
     padding-top: 50px;
     padding-bottom: 0px;
  }
