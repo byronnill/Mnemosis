@@ -1,0 +1,48 @@
+.heading {
+    font-family: 'Quantico', sans-serif;
+    font-weight: bold;
+}
+
+.subheading {
+    font-family: 'Jura', sans-serif;
+}
+
+
+#logo {
+    max-height: 300px;
+    float: left;
+    margin-right: 40px;
+}
+
+a#title {
+    color: black;
+}
+
+a#title:hover {
+    text-decoration: none;
+}
+
+#web_title {
+    font-size: 100px;
+    font-family: 'Jura', sans-serif;
+}
+
+#web_subtitle {
+    font-size: 40px;
+    font-family: 'Quantico', sans-serif;
+}
+
+#titles {
+    padding-top: 50px;
+    padding-bottom: 0px;
+}
+
+.jumbotron {
+    background-color: #C8F4F9;
+    padding-bottom: 100px;
+}
+
+body {
+    background-color: #EEB5EB;
+    min-height: 2000px;
+}
