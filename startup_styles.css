@@ -33,11 +33,17 @@ a#title:hover {
 #login_box {
     background-color: #EEB5EB;
     padding: 30px;
+    flex-grow: 1;
+    flex-shrink: 1;
+    transition: all 400ms ease;
 }
 
 #register_box {
     background-color: #C26DBC;
     padding: 30px;
+    flex-grow: 1;
+    flex-shrink: 1;
+    transition: all 400ms ease;
 }
 
 .btn, .btn-custom {
@@ -59,4 +65,8 @@ a#title:hover {
 .btn-custom:disabled:hover:active {
     cursor: default;
     color: white;
+}
+
+#email_login:focus{
+
 }

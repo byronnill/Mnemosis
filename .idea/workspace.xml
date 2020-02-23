@@ -2,11 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cf80c681-d21d-42aa-8b90-98a0a02c0eaf" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bootstrap_tutorial.html" beforeDir="false" afterPath="$PROJECT_DIR$/bootstrap_tutorial.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/custom.css" beforeDir="false" afterPath="$PROJECT_DIR$/startup_styles.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/startup.html" beforeDir="false" afterPath="$PROJECT_DIR$/startup.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/startup_functions.js" beforeDir="false" afterPath="$PROJECT_DIR$/startup_functions.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/startup_styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/startup_styles.css" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -55,8 +54,11 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.bootstrap_tutorial.html">
+  <component name="RunManager" selected="JavaScript Debug.startup.html (1)">
     <configuration name="bootstrap_tutorial.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Bootstrap/bootstrap_tutorial.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="startup.html (1)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Machine Project/startup.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <configuration name="startup.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Bootstrap/startup.html" useBuiltInWebServerPort="true">
@@ -67,6 +69,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.startup.html (1)" />
         <item itemvalue="JavaScript Debug.startup.html" />
         <item itemvalue="JavaScript Debug.bootstrap_tutorial.html" />
         <item itemvalue="JavaScript Debug.tutorial.html" />
@@ -84,7 +87,7 @@
       <option name="presentableId" value="Default" />
       <updated>1582435721327</updated>
       <workItem from="1582435727911" duration="8762000" />
-      <workItem from="1582448865795" duration="660000" />
+      <workItem from="1582448865795" duration="4493000" />
     </task>
     <servers />
   </component>
