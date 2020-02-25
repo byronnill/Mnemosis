@@ -9,6 +9,17 @@ $("#email_login, #password_login").on("keyup", function() {
     }
 });
 
+$("#fname, #lname, #bday, #gender, #email_register, #password_register, #cpass").on("keyup", function() {
+    let holder1 = $("#email_login").val().length;
+    let holder2 = $("#password_login").val().length;
+
+    if (holder1 !== 0 && holder2 !== 0 && $("#email_login").is(":valid")) {
+        $("#submit_login").prop("disabled", false);
+    } else {
+        $("#submit_login").prop("disabled", true);
+    }
+});
+
 $("#email_login, #password_login").on("focus", function () {
 
     $("#login_box").removeClass();

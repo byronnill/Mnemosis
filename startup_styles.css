@@ -1,3 +1,7 @@
+html {
+    overflow: hidden;
+}
+
 .heading {
     font-family: 'Quantico', sans-serif;
     font-weight: bold;
@@ -88,5 +92,5 @@
 
 body {
     background-color: #C8F4F9;
-    overflow: hidden;
+    overflow: auto;
 }
