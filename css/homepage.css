@@ -59,6 +59,13 @@ body {
     font-family: 'Jura', sans-serif;
 }
 
+#user-icon {
+    height: 50px;
+    width: 50px;
+    padding: 5px;
+    float: right;
+}
+
 .heading {
     font-family: 'Quantico', sans-serif;
     font-weight: bold;
