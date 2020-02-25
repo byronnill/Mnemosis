@@ -15,7 +15,7 @@
     <script src="js/bootstrap.bundle.js"></script>
 
     <link rel="stylesheet" href="css/general_styles.css">
-    <link rel="stylesheet" href="css/homepage.css">
+    <link rel="stylesheet" href="css/view_games.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Jura|Quantico">
 </head>
 <body>
@@ -60,7 +60,25 @@
     </div>
 
     <div class="container mt-5 mb-5" id="main-box">
-        <h2 class="heading" style="text-align: center">Top Games</h2>
+
+        <h2 class="subheading" style="text-align: center">Filter by</h2>
+        <div class="row">
+            <div class="col-sm-12 text-center">
+                <div id="filter-buttons">
+                    <div class="btn-group" style="display: block; margin: auto">
+                        <button type="button" id="filter-by-none" class="btn btn-custom subheading active">None</button>
+                        <button type="button" id="filter-by-art" class="btn subheading bg-art">Art</button>
+                        <button type="button" id="filter-by-business" class="btn subheading bg-business">Business</button>
+                        <button type="button" id="filter-by-scitech" class="btn subheading bg-scitech">Science and Technology</button>
+                        <button type="button" id="filter-by-general" class="btn subheading bg-general">General Knowledge</button>
+                        <button type="button" id="filter-by-trivia" class="btn subheading bg-trivia">Trivia</button>
+                        <button type="button" id="filter-by-sports" class="btn subheading bg-sports">Sports</button>
+                        <button type="button" id="filter-by-others" class="btn subheading bg-others">Others</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
         <div class="row">
             <div class="col-sm-4 mb-4">
                 <div class="card">
@@ -273,33 +291,33 @@
                 </div>
             </div>
         </div>
-    </div>
+                </div>
 
-<!--    not yet working to be finished soon-->
-<!--    <div class="modal fade" id="myModal">-->
-<!--        <div class="modal-dialog">-->
-<!--            <div class="modal-content">-->
-<!--                <div class="modal-header">-->
-<!--                    <h4 class="modal-title">Sample Game Title</h4>-->
-<!--                    <button type="button" class="close" data-dismiss="modal">%times;</button>-->
-<!--                </div>-->
+                <!--    not yet working to be finished soon-->
+                <!--    <div class="modal fade" id="myModal">-->
+                <!--        <div class="modal-dialog">-->
+                <!--            <div class="modal-content">-->
+                <!--                <div class="modal-header">-->
+                <!--                    <h4 class="modal-title">Sample Game Title</h4>-->
+                <!--                    <button type="button" class="close" data-dismiss="modal">%times;</button>-->
+                <!--                </div>-->
 
-<!--                <div class="modal-body">-->
-<!--                    Sample game description.-->
-<!--                </div>-->
+                <!--                <div class="modal-body">-->
+                <!--                    Sample game description.-->
+                <!--                </div>-->
 
 
-<!--                <div class="modal-footer">-->
-<!--                    <small class="text-muted subheading">Created by Sample Author</small>-->
-<!--                    <button type="button" class="btn btn-custom btn-block" data-dismiss="modal">Close</button>-->
-<!--                </div>-->
-<!--            </div>-->
-<!--        </div>-->
-<!--    </div>-->
+                <!--                <div class="modal-footer">-->
+                <!--                    <small class="text-muted subheading">Created by Sample Author</small>-->
+                <!--                    <button type="button" class="btn btn-custom btn-block" data-dismiss="modal">Close</button>-->
+                <!--                </div>-->
+                <!--            </div>-->
+                <!--        </div>-->
+                <!--    </div>-->
 
-    <div class="container-fluid subheading" id="footer">
-        all rights reserved 2020
-    </div>
+                <div class="container-fluid subheading" id="footer">
+                    all rights reserved 2020
+                </div>
 
     <script src="js/homepage.js"></script>
 </body>
