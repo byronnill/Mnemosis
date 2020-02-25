@@ -43,6 +43,8 @@ none.on("click", function () {
     others.removeClass("active");
 
     $(".card").parent().show();
+
+    $(document).attr("title", "Mnemosis | All Games");
 });
 
 art.on("click", function () {
@@ -63,6 +65,8 @@ art.on("click", function () {
     $(".container").find(".card-trivia").parent().css("display", "none");
     $(".container").find(".card-sports").parent().css("display", "none");
     $(".container").find(".card-others").parent().css("display", "none");
+
+    $(document).attr("title", "Mnemosis | Art");
 });
 
 business.on("click", function () {
@@ -83,6 +87,8 @@ business.on("click", function () {
     $(".container").find(".card-trivia").parent().css("display", "none");
     $(".container").find(".card-sports").parent().css("display", "none");
     $(".container").find(".card-others").parent().css("display", "none");
+
+    $(document).attr("title", "Mnemosis | Business");
 });
 
 scitech.on("click", function () {
@@ -103,6 +109,8 @@ scitech.on("click", function () {
     $(".container").find(".card-trivia").parent().css("display", "none");
     $(".container").find(".card-sports").parent().css("display", "none");
     $(".container").find(".card-others").parent().css("display", "none");
+
+    $(document).attr("title", "Mnemosis | Science and Technology");
 });
 
 general.on("click", function () {
@@ -123,6 +131,8 @@ general.on("click", function () {
     $(".container").find(".card-trivia").parent().css("display", "none");
     $(".container").find(".card-sports").parent().css("display", "none");
     $(".container").find(".card-others").parent().css("display", "none");
+
+    $(document).attr("title", "Mnemosis | General Knowledge");
 });
 
 trivia.on("click", function () {
@@ -143,6 +153,8 @@ trivia.on("click", function () {
     $(".container").find(".card-general").parent().css("display", "none");
     $(".container").find(".card-sports").parent().css("display", "none");
     $(".container").find(".card-others").parent().css("display", "none");
+
+    $(document).attr("title", "Mnemosis | Trivia");
 });
 
 sports.on("click", function () {
@@ -163,6 +175,8 @@ sports.on("click", function () {
     $(".container").find(".card-general").parent().css("display", "none");
     $(".container").find(".card-trivia").parent().css("display", "none");
     $(".container").find(".card-others").parent().css("display", "none");
+
+    $(document).attr("title", "Mnemosis | Sports");
 });
 
 others.on("click", function () {
@@ -183,4 +197,6 @@ others.on("click", function () {
     $(".container").find(".card-general").parent().css("display", "none");
     $(".container").find(".card-trivia").parent().css("display", "none");
     $(".container").find(".card-sports").parent().css("display", "none");
+
+    $(document).attr("title", "Mnemosis | Others");
 });
