@@ -60,3 +60,7 @@
 #filter-by-others.active:hover{
     cursor: default;
 }
+
+body {
+    transition: 2s;
+}
