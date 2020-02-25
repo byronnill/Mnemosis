@@ -1,5 +1,33 @@
-html {
-    overflow: hidden;
+body {
+    background-color: #C8F4F9;
+    overflow: auto;
+}
+
+#header-div:hover {
+    text-decoration: none;
+}
+
+.logo {
+    max-height: 300px;
+    float: left;
+}
+
+#titles {
+    color: black;
+    position: relative;
+    left: 50px;
+    padding-top: 50px;
+    padding-bottom: 0px;
+}
+
+#web-title {
+    font-size: 100px;
+    font-family: 'Jura', sans-serif;
+}
+
+#web-subtitle {
+    font-size: 40px;
+    font-family: 'Quantico', sans-serif;
 }
 
 .heading {
@@ -11,47 +39,15 @@ html {
     font-family: 'Jura', sans-serif;
 }
 
-.logo {
-    max-height: 300px;
-    float: left;
+#startup-box {
+    margin-top: 100px;
 }
 
-#web_title {
-    font-size: 100px;
+.form-text, .form-control {
     font-family: 'Jura', sans-serif;
 }
 
-#web_subtitle {
-    font-size: 40px;
-    font-family: 'Quantico', sans-serif;
-}
-
-#titles {
-    color: black;
-    position: relative;
-    left: 50px;
-    padding-top: 50px;
-    padding-bottom: 0px;
- }
-
-#webpage:hover {
-    text-decoration: none;
-}
-
-.jumbotron {
-    background-color: #C8F4F9;
-    margin-bottom: 0;
-}
-
-#startup_box {
-    margin-top: 50px;
-}
-
-.form_text, .form-control {
-    font-family: 'Jura', sans-serif;
-}
-
-#login_box {
+#login-box {
     background-color: #EEB5EB;
     padding: 30px;
     flex-grow: 1;
@@ -59,7 +55,7 @@ html {
     transition: all 400ms ease;
 }
 
-#register_box {
+#register-box {
     background-color: #C26DBC;
     padding: 30px;
     flex-grow: 1;
@@ -67,7 +63,7 @@ html {
     transition: all 400ms ease;
 }
 
-.btn, .btn-custom, #spec_button {
+.btn, .btn-custom, #spec-button {
     background-color: #3CACAE;
     border-color: #3CACAE;
     color: white;
@@ -76,8 +72,8 @@ html {
 .btn-custom:enabled:hover,
 .btn-custom:enabled:active,
 .btn-custom:enabled:hover:active,
-#spec_button:hover,
-#spec_button:active {
+#spec-button:hover,
+#spec-button:active {
     background-color: #236A6B;
     border-color: #236A6B;
     color: white;
@@ -88,9 +84,4 @@ html {
 .btn-custom:disabled:hover:active {
     cursor: default;
     color: white;
-}
-
-body {
-    background-color: #C8F4F9;
-    overflow: auto;
 }

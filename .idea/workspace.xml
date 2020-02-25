@@ -3,12 +3,14 @@
   <component name="ChangeListManager">
     <list default="true" id="cf80c681-d21d-42aa-8b90-98a0a02c0eaf" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/main.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main_styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/main_styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/startup_functions.js" beforeDir="false" afterPath="$PROJECT_DIR$/startup_functions.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/startup_styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/startup_styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bootstrap_tutorial.html" beforeDir="false" afterPath="$PROJECT_DIR$/bootstrap_tutorial.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main_functions.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main_styles.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/startup.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/startup_functions.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/startup_styles.css" beforeDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,9 +19,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="CSS File" />
         <option value="HTML File" />
         <option value="JavaScript File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -34,6 +36,11 @@
   </component>
   <component name="ProjectId" id="1YC9U8Cp6YfjEDygjIzQmYtYonb" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
@@ -47,18 +54,6 @@
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
     </key>
-  </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
   </component>
   <component name="RunManager" selected="JavaScript Debug.startup.html (1)">
     <configuration name="bootstrap_tutorial.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Bootstrap/bootstrap_tutorial.html" useBuiltInWebServerPort="true">
@@ -96,7 +91,9 @@
       <workItem from="1582448865795" duration="4671000" />
       <workItem from="1582460298093" duration="10268000" />
       <workItem from="1582516312525" duration="1680000" />
-      <workItem from="1582607303893" duration="1854000" />
+      <workItem from="1582607303893" duration="5033000" />
+      <workItem from="1582619362795" duration="133000" />
+      <workItem from="1582626130859" duration="3788000" />
     </task>
     <task id="LOCAL-00001" summary="modified main page">
       <created>1582473929608</created>
@@ -127,5 +124,15 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="modified main page" />
     <option name="LAST_COMMIT_MESSAGE" value="modified main page" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="-1260" y="361" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1582631664026">
+      <screen x="-1920" y="23" width="1920" height="1057" />
+    </state>
+    <state x="-1260" y="361" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1680.1027/-1920.23.1920.1057@-1920.23.1920.1057" timestamp="1582631664026" />
+    <state x="-1222" y="305" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1582632143936">
+      <screen x="-1920" y="23" width="1920" height="1057" />
+    </state>
+    <state x="-1222" y="305" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1680.1027/-1920.23.1920.1057@-1920.23.1920.1057" timestamp="1582632143936" />
   </component>
 </project>
