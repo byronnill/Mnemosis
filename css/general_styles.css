@@ -84,6 +84,10 @@ body {
     height: 75px;
 }
 
+.card {
+    border-color: white;
+}
+
 .card-img-custom {
     min-height: 200px;
     max-height: 200px;
@@ -92,38 +96,38 @@ body {
 }
 
 .bg-art {
-    background-color: #FF9AA2;
-    outline-color: #FF9AA2;
+    background-color: #FFCCCC;
+    border-color: #FFCCCC;
 }
 
 .bg-business {
-    background-color: #FFB7B2;
-    outline-color: #FFB7B2;
+    background-color: #FFE6CC;
+    border-color: #FFE6CC;
 }
 
 .bg-scitech {
-    background-color: #FFDAC1;
-    outline-color: #FFDAC1;
+    background-color: #FFFFCC;
+    border-color: #FFFFCC;
 }
 
 .bg-general {
-    background-color: #E2F0CB;
-    outline-color: #E2F0CB;
+    background-color: #D9FFCC;
+    border-color: #D9FFCC;
 }
 
 .bg-trivia {
-    background-color: #B5EAD7;
-    outline-color: #B5EAD7;
+    background-color: #CCFFFF;
+    border-color: #CCFFFF;
 }
 
 .bg-sports {
-    background-color: #C7CEEA;
-    outline-color: #C7CEEA;
+    background-color: #D9CCFF;
+    border-color: #D9CCFF;
 }
 
 .bg-others {
-    background-color: #D3D3D3;
-    outline-color: #D3D3D3;
+    background-color: #FFCCF2;
+    border-color: #FFCCF2;
 }
 
 .btn-custom {
@@ -142,9 +146,6 @@ a.btn:hover {
 }
 
 .btn-custom.active:hover {
-    background-color: #236A6B;
-    border-color: #236A6B;
-    color: white;
     cursor: default;
 }
 

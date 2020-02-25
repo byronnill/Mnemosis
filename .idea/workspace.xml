@@ -2,11 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cf80c681-d21d-42aa-8b90-98a0a02c0eaf" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/homepage.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/homepage.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/login_and_register.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/login_and_register.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/homepage.html" beforeDir="false" afterPath="$PROJECT_DIR$/homepage.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/login_and_register.html" beforeDir="false" afterPath="$PROJECT_DIR$/login_and_register.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/general_styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/general_styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/view_games.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/view_games.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/view_games.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/view_games.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view_games.html" beforeDir="false" afterPath="$PROJECT_DIR$/view_games.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,9 +17,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="JavaScript File" />
         <option value="CSS File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -49,11 +50,14 @@
     <property name="settings.editor.selected.configurable" value="JavaScript.Libraries" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.homepage.html">
+  <component name="RunManager" selected="Node.js.view_games.js">
     <configuration name="bootstrap_tutorial.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Bootstrap/bootstrap_tutorial.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
@@ -66,16 +70,16 @@
     <configuration name="startup.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Bootstrap/startup.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="tutorial.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Bootstrap/tutorial.html" useBuiltInWebServerPort="true">
+    <configuration name="view_games.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/js/view_games.js" working-dir="$PROJECT_DIR$/js">
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Node.js.view_games.js" />
         <item itemvalue="JavaScript Debug.homepage.html" />
         <item itemvalue="JavaScript Debug.startup.html (1)" />
         <item itemvalue="JavaScript Debug.startup.html" />
         <item itemvalue="JavaScript Debug.bootstrap_tutorial.html" />
-        <item itemvalue="JavaScript Debug.tutorial.html" />
       </list>
     </recent_temporary>
   </component>
@@ -98,7 +102,7 @@
       <workItem from="1582516312525" duration="1680000" />
       <workItem from="1582607303893" duration="5033000" />
       <workItem from="1582619362795" duration="133000" />
-      <workItem from="1582626130859" duration="17874000" />
+      <workItem from="1582626130859" duration="21960000" />
     </task>
     <task id="LOCAL-00001" summary="modified main page">
       <created>1582473929608</created>
@@ -139,6 +143,26 @@
       <screen x="-1920" y="23" width="1920" height="1057" />
     </state>
     <state x="-1222" y="305" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1680.1027/-1920.23.1920.1057@-1920.23.1920.1057" timestamp="1582632143936" />
+    <state width="1899" height="290" key="GridCell.Tab.0.bottom" timestamp="1582652735050">
+      <screen x="-1920" y="23" width="1920" height="1057" />
+    </state>
+    <state width="1899" height="290" key="GridCell.Tab.0.bottom/0.23.1680.1027/-1920.23.1920.1057@-1920.23.1920.1057" timestamp="1582652735050" />
+    <state width="1899" height="290" key="GridCell.Tab.0.center" timestamp="1582652735049">
+      <screen x="-1920" y="23" width="1920" height="1057" />
+    </state>
+    <state width="1899" height="290" key="GridCell.Tab.0.center/0.23.1680.1027/-1920.23.1920.1057@-1920.23.1920.1057" timestamp="1582652735049" />
+    <state width="1899" height="290" key="GridCell.Tab.0.left" timestamp="1582652735048">
+      <screen x="-1920" y="23" width="1920" height="1057" />
+    </state>
+    <state width="1899" height="290" key="GridCell.Tab.0.left/0.23.1680.1027/-1920.23.1920.1057@-1920.23.1920.1057" timestamp="1582652735048" />
+    <state width="1899" height="290" key="GridCell.Tab.0.right" timestamp="1582652735049">
+      <screen x="-1920" y="23" width="1920" height="1057" />
+    </state>
+    <state width="1899" height="290" key="GridCell.Tab.0.right/0.23.1680.1027/-1920.23.1920.1057@-1920.23.1920.1057" timestamp="1582652735049" />
+    <state x="-1305" y="173" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1582654070150">
+      <screen x="-1920" y="23" width="1920" height="1057" />
+    </state>
+    <state x="-1305" y="173" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.23.1680.1027/-1920.23.1920.1057@-1920.23.1920.1057" timestamp="1582654070150" />
     <state x="-1295" y="256" key="run.anything.popup" timestamp="1582641199645">
       <screen x="-1920" y="23" width="1920" height="1057" />
     </state>
