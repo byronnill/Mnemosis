@@ -22,12 +22,12 @@ body {
 
 #web-title {
     font-size: 100px;
-    font-family: 'Jura', sans-serif;
+    font-family: 'Quantico', sans-serif;
 }
 
 #web-subtitle {
     font-size: 40px;
-    font-family: 'Quantico', sans-serif;
+    font-family: 'Jura', sans-serif;
 }
 
 .heading {
@@ -41,10 +41,6 @@ body {
 
 #startup-box {
     margin-top: 100px;
-}
-
-.form-text, .form-control {
-    font-family: 'Jura', sans-serif;
 }
 
 #login-box {
@@ -84,4 +80,13 @@ body {
 .btn-custom:disabled:hover:active {
     cursor: default;
     color: white;
+}
+
+#footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    background-color: #236A6B;
+    color: white;
+    text-align: center;
 }

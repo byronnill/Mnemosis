@@ -1,10 +1,16 @@
 body {
     background-color: #C8F4F9;
-    min-height: 2000px;
 }
 
 #header-div:hover {
     text-decoration: none;
+}
+
+#header {
+    /*position: fixed;*/
+    top: 0;
+    width: 100%;
+    align-items: center;
 }
 
 .logo {
@@ -45,12 +51,12 @@ body {
 
 #web-title {
     font-size: 100px;
-    font-family: 'Jura', sans-serif;
+    font-family: 'Quantico', sans-serif;
 }
 
 #web-subtitle {
     font-size: 40px;
-    font-family: 'Quantico', sans-serif;
+    font-family: 'Jura', sans-serif;
 }
 
 .heading {
@@ -66,33 +72,43 @@ body {
     margin-top: 100px;
 }
 
-.form-text, .form-control {
-    font-family: 'Jura', sans-serif;
+.navbar-custom {
+    background-color: #EEB5EB;
+    height: 75px;
 }
-.btn, .btn-custom, #spec-button {
+
+.card-img-custom {
+    min-height: 200px;
+    max-height: 200px;
+    height: 200px;
+    width: auto;
+}
+
+/*#main-box {*/
+/*    margin-top: 42+313;*/
+/*}*/
+
+.btn, .btn-custom {
     background-color: #3CACAE;
     border-color: #3CACAE;
+    font-family: 'Jura', sans-serif;
     color: white;
 }
 
-.btn-custom:enabled:hover,
-.btn-custom:enabled:active,
-.btn-custom:enabled:hover:active,
-#spec-button:hover,
-#spec-button:active {
+.btn-custom:hover,
+.btn-custom:active,
+.btn-custom:hover:active,
+a.btn:hover {
     background-color: #236A6B;
     border-color: #236A6B;
     color: white;
 }
 
-.btn-custom:disabled:hover,
-.btn-custom:disabled:active,
-.btn-custom:disabled:hover:active {
-    cursor: default;
+#footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    background-color: #236A6B;
     color: white;
-}
-
-.navbar-custom {
-    background-color: #EEB5EB;
-    height: 75px;
+    text-align: center;
 }
