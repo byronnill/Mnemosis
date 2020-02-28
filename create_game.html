@@ -84,7 +84,7 @@
                     $("#add_question").attr("disabled", true);
             });
             $(document).on("click", ".delete", function(){
-                $("#add_question").attr("disabled", true);
+                $("#add_question").attr("disabled", false);
                 var id = $(this).attr("id");
                 var number = id.substring(6);
                 if (questions.length == 10){
