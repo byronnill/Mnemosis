@@ -44,6 +44,7 @@
                 var answer_text = $("<div></div>");
                 var close = $("<div></div>");
                 question.addClass("form-inline row mb-1");
+                question.attr("id", "form" + (questions.length + 1))
                 start.addClass("col-2");
                 question_text.addClass("col-6");
                 answer_text.addClass("col-3");
@@ -58,13 +59,16 @@
                 input1.attr("type", "text");
                 input1.attr("placeholder", "Your question");
                 input1.attr("size", "60");
+                input1.attr("id", "question" + (questions.length + 1));
                 input2.addClass("form-control subheading");
                 input2.attr("type", "text");
                 input2.attr("placeholder", "Your answer");
                 input2.attr("size", "25");
-                button.addClass("btn btn-danger");
+                input2.attr("id", "answer" + (questions.length + 1));
+                button.addClass("btn btn-danger delete");
                 button.attr("type", "button");
                 button.text("X");
+                button.attr("id", "delete" + (questions.length + 1));
                 start.append(label);
                 question_text.append(input1);
                 answer_text.append(input2);
@@ -74,10 +78,33 @@
                 question.append(answer_text);
                 question.append(close);
                 $("#questions_form").append(question);
-                console.log("adding");
                 $("#questions_form").append(div_add);
-                console.log("added");
                 questions.push(question);
+                if (questions.length == 50)
+                    $("#add_question").attr("disabled", true);
+            });
+            $(document).on("click", ".delete", function(){
+                $("#add_question").attr("disabled", true);
+                var id = $(this).attr("id");
+                var number = id.substring(6);
+                if (questions.length == 10){
+                    $("#question" + number).val("");
+                    $("#answer" + number).val("");
+                }
+                else{
+                    for(i = parseInt(number) - 1; i < questions.length - 1; i++){
+                        (($("#form" + (i + 1)).find("div.col-2")).find("label")).text("Question " + (i + 1) + ":");
+                        (($("#form" + (i + 1)).find("div.col-6")).find("#question" + (i + 1))).val($("#question" + (i + 2)).val());
+                        (($("#form" + (i + 1)).find("div.col-3")).find("#answer" + (i + 1))).val($("#answer" + (i + 2)).val());
+                    }
+                    $("#form" + questions.length).remove();
+                    var num = questions.length;
+                    list = $(".form-inline.row.mb-1");
+                    questions = [];
+                    for (i = 0; i < num-1; i++){
+                        questions.push(list[i]);
+                    }
+                }
             });
         });
     </script>
@@ -141,65 +168,65 @@
                 <input class="form-control subheading" type="file" id="game_image">
             </div>
             <div id="questions_form">
-                <div class="form-inline row mb-1">
+                <div class="form-inline row mb-1" id="form1">
                     <div class="col-2"><label class="subheading">Question 1:</label></div>
-                    <div class="col-6"><input type="text" class="form-control subheading" size="60" placeholder="Your question" ></div>
-                    <div class="col-3"><input type="text" class="form-control subheading" size="25" placeholder="Your answer" ></div>
-                    <div class="col"><button type="button" class="btn btn-danger">X</button></div>
+                    <div class="col-6"><input type="text" class="form-control subheading" size="60" placeholder="Your question" id="question1"></div>
+                    <div class="col-3"><input type="text" class="form-control subheading" size="25" placeholder="Your answer" id="answer1"></div>
+                    <div class="col"><button type="button" class="btn btn-danger delete" id="delete1">X</button></div>
                 </div>
-                <div class="form-inline row mb-1">
+                <div class="form-inline row mb-1" id="form2">
                     <div class="col-2"><label class="subheading">Question 2:</label></div>
-                    <div class="col-6"><input type="text" class="form-control subheading" size="60" placeholder="Your question" ></div>
-                    <div class="col-3"><input type="text" class="form-control subheading" size="25" placeholder="Your answer" ></div>
-                    <div class="col"><button type="button" class="btn btn-danger">X</button></div>
+                    <div class="col-6"><input type="text" class="form-control subheading" size="60" placeholder="Your question" id="question2"></div>
+                    <div class="col-3"><input type="text" class="form-control subheading" size="25" placeholder="Your answer" id="answer2"></div>
+                    <div class="col"><button type="button" class="btn btn-danger delete" id="delete2">X</button></div>
                 </div>
-                <div class="form-inline row mb-1">
+                <div class="form-inline row mb-1" id="form3">
                     <div class="col-2"><label class="subheading">Question 3:</label></div>
-                    <div class="col-6"><input type="text" class="form-control subheading" size="60" placeholder="Your question" ></div>
-                    <div class="col-3"><input type="text" class="form-control subheading" size="25" placeholder="Your answer" ></div>
-                    <div class="col"><button type="button" class="btn btn-danger">X</button></div>
+                    <div class="col-6"><input type="text" class="form-control subheading" size="60" placeholder="Your question" id="question3"></div>
+                    <div class="col-3"><input type="text" class="form-control subheading" size="25" placeholder="Your answer" id="answer3"></div>
+                    <div class="col"><button type="button" class="btn btn-danger delete" id="delete3">X</button></div>
                 </div>
-                <div class="form-inline row mb-1">
+                <div class="form-inline row mb-1" id="form4">
                     <div class="col-2"><label class="subheading">Question 4:</label></div>
-                    <div class="col-6"><input type="text" class="form-control subheading" size="60" placeholder="Your question" ></div>
-                    <div class="col-3"><input type="text" class="form-control subheading" size="25" placeholder="Your answer" ></div>
-                    <div class="col"><button type="button" class="btn btn-danger">X</button></div>
+                    <div class="col-6"><input type="text" class="form-control subheading" size="60" placeholder="Your question" id="question4"></div>
+                    <div class="col-3"><input type="text" class="form-control subheading" size="25" placeholder="Your answer" id="answer4"></div>
+                    <div class="col"><button type="button" class="btn btn-danger delete" id="delete4">X</button></div>
                 </div>
-                <div class="form-inline row mb-1">
+                <div class="form-inline row mb-1" id="form5">
                     <div class="col-2"><label class="subheading">Question 5:</label></div>
-                    <div class="col-6"><input type="text" class="form-control subheading" size="60" placeholder="Your question" ></div>
-                    <div class="col-3"><input type="text" class="form-control subheading" size="25" placeholder="Your answer" ></div>
-                    <div class="col"><button type="button" class="btn btn-danger">X</button></div>
+                    <div class="col-6"><input type="text" class="form-control subheading" size="60" placeholder="Your question" id="question5"></div>
+                    <div class="col-3"><input type="text" class="form-control subheading" size="25" placeholder="Your answer" id="answer5"></div>
+                    <div class="col"><button type="button" class="btn btn-danger delete" id="delete5">X</button></div>
                 </div>
-                <div class="form-inline row mb-1">
+                <div class="form-inline row mb-1" id="form6">
                     <div class="col-2"><label class="subheading">Question 6:</label></div>
-                    <div class="col-6"><input type="text" class="form-control subheading" size="60" placeholder="Your question" ></div>
-                    <div class="col-3"><input type="text" class="form-control subheading" size="25" placeholder="Your answer" ></div>
-                    <div class="col"><button type="button" class="btn btn-danger">X</button></div>
+                    <div class="col-6"><input type="text" class="form-control subheading" size="60" placeholder="Your question" id="question6"></div>
+                    <div class="col-3"><input type="text" class="form-control subheading" size="25" placeholder="Your answer" id="answer6"></div>
+                    <div class="col"><button type="button" class="btn btn-danger delete" id="delete6">X</button></div>
                 </div>
-                <div class="form-inline row mb-1">
+                <div class="form-inline row mb-1" id="form7">
                     <div class="col-2"><label class="subheading">Question 7:</label></div>
-                    <div class="col-6"><input type="text" class="form-control subheading" size="60" placeholder="Your question" ></div>
-                    <div class="col-3"><input type="text" class="form-control subheading" size="25" placeholder="Your answer" ></div>
-                    <div class="col"><button type="button" class="btn btn-danger">X</button></div>
+                    <div class="col-6"><input type="text" class="form-control subheading" size="60" placeholder="Your question" id="question7"></div>
+                    <div class="col-3"><input type="text" class="form-control subheading" size="25" placeholder="Your answer" id="answer7"></div>
+                    <div class="col"><button type="button" class="btn btn-danger delete" id="delete7">X</button></div>
                 </div>
-                <div class="form-inline row mb-1">
+                <div class="form-inline row mb-1" id="form8">
                     <div class="col-2"><label class="subheading">Question 8:</label></div>
-                    <div class="col-6"><input type="text" class="form-control subheading" size="60" placeholder="Your question" ></div>
-                    <div class="col-3"><input type="text" class="form-control subheading" size="25" placeholder="Your answer" ></div>
-                    <div class="col"><button type="button" class="btn btn-danger">X</button></div>
+                    <div class="col-6"><input type="text" class="form-control subheading" size="60" placeholder="Your question" id="question8"></div>
+                    <div class="col-3"><input type="text" class="form-control subheading" size="25" placeholder="Your answer" id="answer8"></div>
+                    <div class="col"><button type="button" class="btn btn-danger delete" id="delete8">X</button></div>
                 </div>
-                <div class="form-inline row mb-1">
+                <div class="form-inline row mb-1" id="form9">
                     <div class="col-2"><label class="subheading">Question 9:</label></div>
-                    <div class="col-6"><input type="text" class="form-control subheading" size="60" placeholder="Your question" ></div>
-                    <div class="col-3"><input type="text" class="form-control subheading" size="25" placeholder="Your answer" ></div>
-                    <div class="col"><button type="button" class="btn btn-danger">X</button></div>
+                    <div class="col-6"><input type="text" class="form-control subheading" size="60" placeholder="Your question" id="question9"></div>
+                    <div class="col-3"><input type="text" class="form-control subheading" size="25" placeholder="Your answer" id="answer9"></div>
+                    <div class="col"><button type="button" class="btn btn-danger delete" id="delete9">X</button></div>
                 </div>
-                <div class="form-inline row mb-1">
+                <div class="form-inline row mb-1" id="form10">
                     <div class="col-2"><label class="subheading">Question 10:</label></div>
-                    <div class="col-6"><input type="text" class="form-control subheading" size="60" placeholder="Your question" ></div>
-                    <div class="col-3"><input type="text" class="form-control subheading" size="25" placeholder="Your answer" ></div>
-                    <div class="col"><button type="button" class="btn btn-danger">X</button></div>
+                    <div class="col-6"><input type="text" class="form-control subheading" size="60" placeholder="Your question" id="question10"></div>
+                    <div class="col-3"><input type="text" class="form-control subheading" size="25" placeholder="Your answer" id="answer10"></div>
+                    <div class="col"><button type="button" class="btn btn-danger delete" id="delete10">X</button></div>
                 </div>
                 <div class="form-inline row justify-content-center">
                     <button type="button" class="btn btn-block" id="add_question">+</button>
