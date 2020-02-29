@@ -1,27 +1,24 @@
-
-
-
 $( document ).ready(function() {
     $("#button").click(function (){
         if ($('.game-created').css("display")== "none" ){
             $('.game-created').show();
-            $('#button').html('Show Less') 
+            $('#button').html('Show Less')
         }
         else {
             $('.game-created').hide();
-            $('#button').html('Show More') 
+            $('#button').html('Show More')
 
         }
     })
     $("#button2").click(function (){
         if ($('.game-completed').css("display")== "none" ){
-            $('.game-completed').show(); 
-            $('#button2').html('Show Less') 
+            $('.game-completed').show();
+            $('#button2').html('Show Less')
 
         }
         else {
             $('.game-completed').hide();
-            $('#button2').html('Show More') 
+            $('#button2').html('Show More')
 
         }
     })
@@ -49,7 +46,7 @@ $( document ).ready(function() {
         else{
             $(this).parent().parent().parent().hide();
         }
-        
+
     })
 
 

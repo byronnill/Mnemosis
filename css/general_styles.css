@@ -156,6 +156,12 @@ a.btn:hover {
     cursor: default;
 }
 
+.alert-custom {
+    background-color: #236A6B;
+    border-color: #236A6B;
+    color: white;
+}
+
 #footer {
     position: fixed;
     left: 0;

@@ -1,4 +1,4 @@
-body {
+viewbody {
     background-color: #C8F4F9;
 }
 
@@ -126,28 +126,28 @@ a.btn:hover {
     display:grid;
     grid-template-columns: 3fr 1fr 1fr 3fr;
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
-    grid-template-areas: 
-    "prof_title prof_title prof_title prof_title"
-    "prof_pic prof_hemail prof_email prof_email"
-    "prof_pic prof_hage prof_age prof_age"
-    "prof_pic prof_hgender prof_gender prof_gender"
-    "prof_name prof_text1 prof_text1 prof_text2"
-    ". prof_subtext1 prof_subtext1 prof_subtext2";
+    grid-template-areas:
+            "prof_title prof_title prof_title prof_title"
+            "prof_pic prof_hemail prof_email prof_email"
+            "prof_pic prof_hage prof_age prof_age"
+            "prof_pic prof_hgender prof_gender prof_gender"
+            "prof_name prof_text1 prof_text1 prof_text2"
+            ". prof_subtext1 prof_subtext1 prof_subtext2";
     grid-gap: 0px;
-    
+
 }
 .prof_title{
     grid-area:prof_title ;
     margin: auto;
 
     font-size: 40px;
-    
+
 }
 .prof_pic{
     grid-area:prof_pic ;
     text-align: center;
     padding-top: 0;
-       
+
 }
 .prof_text1{
     grid-area:prof_text1 ;
@@ -230,9 +230,9 @@ a.btn:hover {
     display:grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr;
-    grid-template-areas: 
-    "accuracy time";
-    
+    grid-template-areas:
+            "accuracy time";
+
 }
 .accuracy{
     grid-area:accuracy ;
@@ -252,36 +252,10 @@ a.btn:hover {
 .game-completed{
     display: none;
 }
-#button{
-    background-color: #C8F4F9;
-    border:transparent;
-    color: black;
-    font-size: 20px;
-    font-family: 'Quantico', sans-serif;
-    font-weight: bold;
-    margin-top: 0em;
 
-}
-#button2{
-    background-color: #C8F4F9;
-    border:transparent;
-    color: black;
-    font-size: 20px;
-    font-family: 'Quantico', sans-serif;
-    font-weight: bold;
-
-}
 .btn-custom2:hover {
     background-color: #CA3433;
     border-color: #CA3433;
     font-family: 'Jura', sans-serif;
     color: white;
-}
-#create{
-    font-size: 30px;
-    font-family: 'Quantico', sans-serif;
-}
-#admin{
-    font-size: 30px;
-    font-family: 'Quantico', sans-serif;
 }
