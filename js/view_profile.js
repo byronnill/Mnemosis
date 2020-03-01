@@ -48,6 +48,32 @@ $( document ).ready(function() {
         }
 
     })
+    $(".delete2").click(function (){
+        $(".prof_subtext2").text(parseInt($(".prof_subtext2").text())-1);
+        if ($(this).parent().parent().parent().hasClass('game-completed')){
+            $(this).parent().parent().parent().hide();
+
+        }
+        else if ($(this).parent().parent().parent().next().hasClass('game-completed')){
+            console.log('1');
+            $(this).parent().parent().parent().next().removeClass('game-completed');
+            $(this).parent().parent().parent().hide();
+        }
+        else if ($(this).parent().parent().parent().next().next().hasClass('game-completed')){
+            console.log('1');
+            $(this).parent().parent().parent().next().next().removeClass('game-completed');
+            $(this).parent().parent().parent().hide();
+        }
+        else if ($(this).parent().parent().parent().next().next().next().hasClass('game-completed')){
+            console.log('1');
+            $(this).parent().parent().parent().next().next().next().removeClass('game-completed');
+            $(this).parent().parent().parent().hide();
+        }
+        else{
+            $(this).parent().parent().parent().hide();
+        }
+
+    })
 
 
 });

@@ -200,3 +200,6 @@ others.on("click", function () {
 
     $(document).attr("title", "Mnemosis | Others");
 });
+$(".delete").click(function (){
+    $(this).parent().parent().parent().hide();
+})
