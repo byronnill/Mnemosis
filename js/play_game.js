@@ -47,6 +47,6 @@ $("#start-btn").on("click", function () {
     $("#give-up").show();
 
 
-    startCountdown(new Date(), 0.3);
+    startCountdown(new Date(), 3);
 
 });
