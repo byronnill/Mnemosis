@@ -119,6 +119,7 @@ a.btn:hover {
     color: white;
     text-align: center;
 }
+
 .grid {
     margin: auto;
     width: 1100px;
@@ -132,10 +133,10 @@ a.btn:hover {
             "prof_pic prof_hage prof_age prof_age"
             "prof_pic prof_hgender prof_gender prof_gender"
             "prof_name prof_text1 prof_text1 prof_text2"
-            ". prof_subtext1 prof_subtext1 prof_subtext2";
+            "prof_file prof_subtext1 prof_subtext1 prof_subtext2";
     grid-gap: 0px;
-
 }
+
 .prof_title{
     grid-area:prof_title ;
     margin: auto;
@@ -143,12 +144,14 @@ a.btn:hover {
     font-size: 40px;
 
 }
+
 .prof_pic{
     grid-area:prof_pic ;
     text-align: center;
     padding-top: 0;
 
 }
+
 .prof_text1{
     grid-area:prof_text1 ;
     align-self: center;
@@ -157,6 +160,7 @@ a.btn:hover {
 
     /* background-color: green; */
 }
+
 .prof_text2{
     grid-area:prof_text2 ;
     align-self: center;
@@ -164,6 +168,7 @@ a.btn:hover {
     font-size: 25px;
     /* background-color: yellow; */
 }
+
 .prof_subtext1{
     grid-area:prof_subtext1 ;
     align-self: top;
@@ -171,6 +176,7 @@ a.btn:hover {
     font-size: 25px;
     /* background-color: violet; */
 }
+
 .prof_subtext2{
     grid-area:prof_subtext2 ;
     align-self: top;
@@ -178,11 +184,13 @@ a.btn:hover {
     font-size: 25px;
     /* background-color: orange; */
 }
+
 .prof_name{
     grid-area:prof_name ;
     text-align: center;
     font-size: 25px;
 }
+
 .prof_email{
     grid-area:prof_email ;
     align-self: center;
@@ -190,6 +198,7 @@ a.btn:hover {
     font-size: 25px;
     /* background-color: brown; */
 }
+
 .prof_age{
     grid-area:prof_age ;
     align-self: center;
@@ -197,6 +206,7 @@ a.btn:hover {
     font-size: 25px;
     /* background-color: yellow; */
 }
+
 .prof_gender{
     grid-area:prof_gender ;
     align-self: center;
@@ -204,6 +214,7 @@ a.btn:hover {
     font-size: 25px;
     /* background-color: green; */
 }
+
 .prof_hemail{
     grid-area:prof_hemail ;
     align-self: center;
@@ -211,6 +222,7 @@ a.btn:hover {
     font-size: 25px;
     /* background-color: brown; */
 }
+
 .prof_hage{
     grid-area:prof_hage ;
     align-self: center;
@@ -218,6 +230,7 @@ a.btn:hover {
     font-size: 25px;
     /* background-color: yellow; */
 }
+
 .prof_hgender{
     grid-area:prof_hgender ;
     align-self: center;
@@ -225,6 +238,13 @@ a.btn:hover {
     font-size: 25px;
     /* background-color: green; */
 }
+
+.prof_file{
+    grid-area:prof_file ;
+    text-align: center;
+    justify-self: center;
+}
+
 .grid-small{
     margin: auto;
     display:grid;
@@ -234,28 +254,34 @@ a.btn:hover {
             "accuracy time";
 
 }
+
 .accuracy{
     grid-area:accuracy ;
     text-align: center;
     padding-bottom: 10px;
     color: green;
 }
+
 .time{
     grid-area:time ;
     text-align: center;
     padding-bottom: 10px;
 
 }
+
 .game-created{
     display: none;
 }
+
 .game-completed{
     display: none;
 }
 
-.btn-custom2:hover {
-    background-color: #CA3433;
-    border-color: #CA3433;
-    font-family: 'Jura', sans-serif;
-    color: white;
+#upload{
+    height: 38px;
+    margin-left: 18px;
+}
+
+.custom-file-label{
+    width: 280px;
 }

@@ -137,6 +137,13 @@ body {
     color: white;
 }
 
+.btn-custom2 {
+    background-color: #3CACAE;
+    border-color: #3CACAE;
+    font-family: 'Jura', sans-serif;
+    color: white;
+}
+
 .btn-custom:hover,
 .btn-custom.active,
 a.btn:hover {
@@ -147,6 +154,13 @@ a.btn:hover {
 
 .btn-custom.active:hover {
     cursor: default;
+}
+
+.btn-custom2:hover {
+    background-color: #CA3433;
+    border-color: #CA3433;
+    font-family: 'Jura', sans-serif;
+    color: white;
 }
 
 .btn[disabled] {
