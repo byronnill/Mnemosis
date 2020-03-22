@@ -45,18 +45,33 @@ none.on("click", function () {
     $(".card").parent().show();
 });
 
-function check (clicked) {
+function check () {
     let arr = [art, business, scitech, general, trivia, sports, others];
-    let active = 0;
+    let active = [];
 
     arr.forEach(function (i) {
         if (i.hasClass("active"))
-            active++;
+            active.push(i);
     });
 
-    if (active === 0) {
+    if (active.length === 0) {
         none.addClass("active");
         $(".card").parent().show();
+    } else {
+        if (active.indexOf(art) !== -1)
+            $(".container").find(".card-art").parent().show();
+        if (active.indexOf(business) !== -1)
+            $(".container").find(".card-business").parent().show();
+        if (active.indexOf(scitech) !== -1)
+            $(".container").find(".card-scitech").parent().show();
+        if (active.indexOf(general) !== -1)
+            $(".container").find(".card-general").parent().show();
+        if (active.indexOf(trivia) !== -1)
+            $(".container").find(".card-trivia").parent().show();
+        if (active.indexOf(sports) !== -1)
+            $(".container").find(".card-sports").parent().show();
+        if (active.indexOf(others) !== -1)
+            $(".container").find(".card-others").parent().show();
     }
 
 }
@@ -72,7 +87,7 @@ art.on("click", function () {
     if (art.hasClass("active")) {
         art.removeClass("active");
         $(".container").find(".card-art").parent().css("display", "none");
-        check(art);
+        check();
     } else {
         art.addClass("active");
 
@@ -95,7 +110,7 @@ business.on("click", function () {
     if (business.hasClass("active")) {
         business.removeClass("active");
         $(".container").find(".card-business").parent().css("display", "none");
-        check(business);
+        check();
     } else {
         business.addClass("active");
 
@@ -118,7 +133,7 @@ scitech.on("click", function () {
     if (scitech.hasClass("active")) {
         scitech.removeClass("active");
         $(".container").find(".card-scitech").parent().css("display", "none");
-        check(art);
+        check();
     } else {
         scitech.addClass("active");
 
@@ -141,7 +156,7 @@ general.on("click", function () {
     if (general.hasClass("active")) {
         general.removeClass("active");
         $(".container").find(".card-general").parent().css("display", "none");
-        check(art);
+        check();
     } else {
         general.addClass("active");
 
@@ -164,7 +179,7 @@ trivia.on("click", function () {
     if (trivia.hasClass("active")) {
         trivia.removeClass("active");
         $(".container").find(".card-trivia").parent().css("display", "none");
-        check(art);
+        check();
     } else {
         trivia.addClass("active");
 
@@ -187,7 +202,7 @@ sports.on("click", function () {
     if (sports.hasClass("active")) {
         sports.removeClass("active");
         $(".container").find(".card-sports").parent().css("display", "none");
-        check(art);
+        check();
     } else {
         sports.addClass("active");
 
@@ -210,7 +225,7 @@ others.on("click", function () {
     if (others.hasClass("active")) {
         others.removeClass("active");
         $(".container").find(".card-others").parent().css("display", "none");
-        check(art);
+        check();
     } else {
         others.addClass("active");
 

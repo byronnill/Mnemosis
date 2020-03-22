@@ -137,6 +137,7 @@ body {
     border-color: #FFCCF2;
 }
 
+.bg-art-dark,
 #filter-by-art:hover,
 #filter-by-art.active {
     background-color: #800000;
@@ -144,6 +145,7 @@ body {
     color: white;
 }
 
+.bg-business-dark,
 #filter-by-business:hover,
 #filter-by-business.active {
     background-color: #804000;
@@ -151,6 +153,7 @@ body {
     color: white;
 }
 
+.bg-scitech-dark,
 #filter-by-scitech:hover,
 #filter-by-scitech.active {
     background-color: #808000;
@@ -158,6 +161,8 @@ body {
     color: white;
 }
 
+
+.bg-general-dark,
 #filter-by-general:hover,
 #filter-by-general.active {
     background-color: #208000;
@@ -165,6 +170,7 @@ body {
     color: white;
 }
 
+.bg-trivia-dark,
 #filter-by-trivia:hover,
 #filter-by-trivia.active {
     background-color: #002080;
@@ -172,6 +178,7 @@ body {
     color: white;
 }
 
+.bg-sports-dark,
 #filter-by-sports:hover,
 #filter-by-sports.active {
     background-color: #600080;
@@ -179,6 +186,7 @@ body {
     color: white;
 }
 
+.bg-others-dark,
 #filter-by-others:hover,
 #filter-by-others.active {
     background-color: #800060;
