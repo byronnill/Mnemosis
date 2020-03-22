@@ -83,10 +83,10 @@
                 <div class="card card-trivia">
                     <div class="card-header bg-trivia"></div>
                     <img src="../../media/Sample%20Images/Sierra%202-min.jpg" class="card-img-top card-img-custom">
-                    <div class="card-body">
+                    <div class="card-body d-flex flex-column">
                         <h5 class="card-title heading">25 Things We Learned in 2019</h5>
                         <p class="card-text subheading">Can you fill in the blanks for the things we learned in 2019?</p>
-                        <a href="play_game" class="btn btn-custom btn-block">Play Game</a>
+                        <button type="button" class="btn btn-custom btn-block mt-auto" data-toggle="modal" data-target="#myModal">Play Game</button>
                     </div>
                     <div class="card-footer">
                         <small class="text-muted subheading">Created by <a href="view_profile_self">sampleauthorxd</a></small>
@@ -284,26 +284,26 @@
     </div>
 
                 <!--    not yet working to be finished soon-->
-                <!--    <div class="modal fade" id="myModal">-->
-                <!--        <div class="modal-dialog">-->
-                <!--            <div class="modal-content">-->
-                <!--                <div class="modal-header">-->
-                <!--                    <h4 class="modal-title">Sample Game Title</h4>-->
-                <!--                    <button type="button" class="close" data-dismiss="modal">%times;</button>-->
-                <!--                </div>-->
+    <div class="modal fade" id="myModal">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title">Sample Game Title</h4>
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div>
 
-                <!--                <div class="modal-body">-->
-                <!--                    Sample game description.-->
-                <!--                </div>-->
+                <div class="modal-body">
+                    Sample game description.
+                </div>
 
 
-                <!--                <div class="modal-footer">-->
-                <!--                    <small class="text-muted subheading">Created by Sample Author</small>-->
-                <!--                    <button type="button" class="btn btn-custom btn-block" data-dismiss="modal">Close</button>-->
-                <!--                </div>-->
-                <!--            </div>-->
-                <!--        </div>-->
-                <!--    </div>-->
+                <div class="modal-footer">
+                    <small class="text-muted subheading">Created by Sample Author</small>
+                    <button type="button" class="btn btn-custom btn-block" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <div class="container-fluid subheading" id="footer">
         all rights reserved 2020

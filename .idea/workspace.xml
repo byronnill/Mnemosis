@@ -3,10 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="cf80c681-d21d-42aa-8b90-98a0a02c0eaf" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/general_styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/general_styles.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/css/view_games.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/view_games.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/js/view_games.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/view_games.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/views/pages/view_games.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/views/pages/view_games.ejs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/pages/view_games_admin.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/views/pages/view_games_admin.ejs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,17 +43,18 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/controller" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/public/css" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="JavaScript.Libraries" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/controller" />
+    <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/public/css" />
+      <recent name="$PROJECT_DIR$/controller" />
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
@@ -115,7 +115,9 @@
       <workItem from="1584873733311" duration="602000" />
       <workItem from="1584874628532" duration="4586000" />
       <workItem from="1584879267972" duration="1139000" />
-      <workItem from="1584880436042" duration="3072000" />
+      <workItem from="1584880436042" duration="3213000" />
+      <workItem from="1584884916666" duration="15000" />
+      <workItem from="1584885249361" duration="1397000" />
     </task>
     <task id="LOCAL-00001" summary="modified main page">
       <created>1582473929608</created>
