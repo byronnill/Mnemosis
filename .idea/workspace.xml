@@ -3,9 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="cf80c681-d21d-42aa-8b90-98a0a02c0eaf" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/pages/play_game.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/views/pages/play_game.ejs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/pages/view_leaderboard.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/views/pages/view_leaderboard.ejs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/view_games.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/view_games.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/pages/view_games.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/views/pages/view_games.ejs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/pages/view_games_admin.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/views/pages/view_games_admin.ejs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -112,7 +112,9 @@
       <workItem from="1584168416442" duration="88000" />
       <workItem from="1584193959015" duration="670000" />
       <workItem from="1584873733311" duration="602000" />
-      <workItem from="1584874628532" duration="2114000" />
+      <workItem from="1584874628532" duration="4586000" />
+      <workItem from="1584879267972" duration="1139000" />
+      <workItem from="1584880436042" duration="242000" />
     </task>
     <task id="LOCAL-00001" summary="modified main page">
       <created>1582473929608</created>

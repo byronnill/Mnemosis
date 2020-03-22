@@ -43,163 +43,192 @@ none.on("click", function () {
     others.removeClass("active");
 
     $(".card").parent().show();
+});
 
-    $(document).attr("title", "Mnemosis | All Games");
+function check (clicked) {
+    let arr = [art, business, scitech, general, trivia, sports, others];
+    let active = 0;
+
+    arr.forEach(function (i) {
+        if (i.hasClass("active"))
+            active++;
+    });
+
+    if (active === 0) {
+        none.addClass("active");
+        $(".card").parent().show();
+    }
+
+}
+
+$("#filter-by-art, #filter-by-business, #filter-by-scitech, #filter-by-general, #filter-by-trivia, #filter-by-sports, #filter-by-others").on("click", function () {
+    if (none.hasClass("active")) {
+        $(".card").parent().css("display", "none");
+        none.removeClass("active");
+    }
 });
 
 art.on("click", function () {
-    art.addClass("active");
+    if (art.hasClass("active")) {
+        art.removeClass("active");
+        $(".container").find(".card-art").parent().css("display", "none");
+        check(art);
+    } else {
+        art.addClass("active");
 
-    none.removeClass("active");
-    business.removeClass("active");
-    scitech.removeClass("active");
-    general.removeClass("active");
-    trivia.removeClass("active");
-    sports.removeClass("active");
-    others.removeClass("active");
+        $(".container").find(".card-art").parent().show();
+        if (business.hasClass("active") && scitech.hasClass("active") && general.hasClass("active") && trivia.hasClass("active") && sports.hasClass("active") && others.hasClass("active")) {
+            none.addClass("active");
 
-    $(".card").parent().show();
-    $(".container").find(".card-business").parent().css("display", "none");
-    $(".container").find(".card-scitech").parent().css("display", "none");
-    $(".container").find(".card-general").parent().css("display", "none");
-    $(".container").find(".card-trivia").parent().css("display", "none");
-    $(".container").find(".card-sports").parent().css("display", "none");
-    $(".container").find(".card-others").parent().css("display", "none");
-
-    $(document).attr("title", "Mnemosis | Art");
+            art.removeClass("active");
+            business.removeClass("active");
+            scitech.removeClass("active");
+            general.removeClass("active");
+            trivia.removeClass("active");
+            sports.removeClass("active");
+            others.removeClass("active");
+        }
+    }
 });
 
 business.on("click", function () {
-    business.addClass("active");
+    if (business.hasClass("active")) {
+        business.removeClass("active");
+        $(".container").find(".card-business").parent().css("display", "none");
+        check(business);
+    } else {
+        business.addClass("active");
 
-    none.removeClass("active");
-    art.removeClass("active");
-    scitech.removeClass("active");
-    general.removeClass("active");
-    trivia.removeClass("active");
-    sports.removeClass("active");
-    others.removeClass("active");
+        $(".container").find(".card-business").parent().show();
+        if (art.hasClass("active") && scitech.hasClass("active") && general.hasClass("active") && trivia.hasClass("active") && sports.hasClass("active") && others.hasClass("active")) {
+            none.addClass("active");
 
-    $(".card").parent().show();
-    $(".container").find(".card-art").parent().css("display", "none");
-    $(".container").find(".card-scitech").parent().css("display", "none");
-    $(".container").find(".card-general").parent().css("display", "none");
-    $(".container").find(".card-trivia").parent().css("display", "none");
-    $(".container").find(".card-sports").parent().css("display", "none");
-    $(".container").find(".card-others").parent().css("display", "none");
-
-    $(document).attr("title", "Mnemosis | Business");
+            art.removeClass("active");
+            business.removeClass("active");
+            scitech.removeClass("active");
+            general.removeClass("active");
+            trivia.removeClass("active");
+            sports.removeClass("active");
+            others.removeClass("active");
+        }
+    }
 });
 
 scitech.on("click", function () {
-    scitech.addClass("active");
+    if (scitech.hasClass("active")) {
+        scitech.removeClass("active");
+        $(".container").find(".card-scitech").parent().css("display", "none");
+        check(art);
+    } else {
+        scitech.addClass("active");
 
-    none.removeClass("active");
-    art.removeClass("active");
-    business.removeClass("active");
-    general.removeClass("active");
-    trivia.removeClass("active");
-    sports.removeClass("active");
-    others.removeClass("active");
+        $(".container").find(".card-scitech").parent().show();
+        if (art.hasClass("active") && business.hasClass("active") && general.hasClass("active") && trivia.hasClass("active") && sports.hasClass("active") && others.hasClass("active")) {
+            none.addClass("active");
 
-    $(".card").parent().show();
-    $(".container").find(".card-art").parent().css("display", "none");
-    $(".container").find(".card-business").parent().css("display", "none");
-    $(".container").find(".card-general").parent().css("display", "none");
-    $(".container").find(".card-trivia").parent().css("display", "none");
-    $(".container").find(".card-sports").parent().css("display", "none");
-    $(".container").find(".card-others").parent().css("display", "none");
-
-    $(document).attr("title", "Mnemosis | Science and Technology");
+            art.removeClass("active");
+            business.removeClass("active");
+            scitech.removeClass("active");
+            general.removeClass("active");
+            trivia.removeClass("active");
+            sports.removeClass("active");
+            others.removeClass("active");
+        }
+    }
 });
 
 general.on("click", function () {
-    general.addClass("active");
+    if (general.hasClass("active")) {
+        general.removeClass("active");
+        $(".container").find(".card-general").parent().css("display", "none");
+        check(art);
+    } else {
+        general.addClass("active");
 
-    none.removeClass("active");
-    art.removeClass("active");
-    business.removeClass("active");
-    scitech.removeClass("active");
-    trivia.removeClass("active");
-    sports.removeClass("active");
-    others.removeClass("active");
+        $(".container").find(".card-general").parent().show();
+        if (art.hasClass("active") && business.hasClass("active") && scitech.hasClass("active") && trivia.hasClass("active") && sports.hasClass("active") && others.hasClass("active")) {
+            none.addClass("active");
 
-    $(".card").parent().show();
-    $(".container").find(".card-art").parent().css("display", "none");
-    $(".container").find(".card-business").parent().css("display", "none");
-    $(".container").find(".card-scitech").parent().css("display", "none");
-    $(".container").find(".card-trivia").parent().css("display", "none");
-    $(".container").find(".card-sports").parent().css("display", "none");
-    $(".container").find(".card-others").parent().css("display", "none");
-
-    $(document).attr("title", "Mnemosis | General Knowledge");
+            art.removeClass("active");
+            business.removeClass("active");
+            scitech.removeClass("active");
+            general.removeClass("active");
+            trivia.removeClass("active");
+            sports.removeClass("active");
+            others.removeClass("active");
+        }
+    }
 });
 
 trivia.on("click", function () {
-    trivia.addClass("active");
+    if (trivia.hasClass("active")) {
+        trivia.removeClass("active");
+        $(".container").find(".card-trivia").parent().css("display", "none");
+        check(art);
+    } else {
+        trivia.addClass("active");
 
-    none.removeClass("active");
-    art.removeClass("active");
-    business.removeClass("active");
-    scitech.removeClass("active");
-    general.removeClass("active");
-    sports.removeClass("active");
-    others.removeClass("active");
+        $(".container").find(".card-trivia").parent().show();
+        if (art.hasClass("active") && business.hasClass("active") && scitech.hasClass("active") && general.hasClass("active") && sports.hasClass("active") && others.hasClass("active")) {
+            none.addClass("active");
 
-    $(".card").parent().show();
-    $(".container").find(".card-art").parent().css("display", "none");
-    $(".container").find(".card-business").parent().css("display", "none");
-    $(".container").find(".card-scitech").parent().css("display", "none");
-    $(".container").find(".card-general").parent().css("display", "none");
-    $(".container").find(".card-sports").parent().css("display", "none");
-    $(".container").find(".card-others").parent().css("display", "none");
-
-    $(document).attr("title", "Mnemosis | Trivia");
+            art.removeClass("active");
+            business.removeClass("active");
+            scitech.removeClass("active");
+            general.removeClass("active");
+            trivia.removeClass("active");
+            sports.removeClass("active");
+            others.removeClass("active");
+        }
+    }
 });
 
 sports.on("click", function () {
-    sports.addClass("active");
+    if (sports.hasClass("active")) {
+        sports.removeClass("active");
+        $(".container").find(".card-sports").parent().css("display", "none");
+        check(art);
+    } else {
+        sports.addClass("active");
 
-    none.removeClass("active");
-    art.removeClass("active");
-    business.removeClass("active");
-    scitech.removeClass("active");
-    general.removeClass("active");
-    trivia.removeClass("active");
-    others.removeClass("active")
+        $(".container").find(".card-sports").parent().show();
+        if (art.hasClass("active") && business.hasClass("active") && scitech.hasClass("active") && general.hasClass("active") && trivia.hasClass("active") && others.hasClass("active")) {
+            none.addClass("active");
 
-    $(".card").parent().show();
-    $(".container").find(".card-art").parent().css("display", "none");
-    $(".container").find(".card-business").parent().css("display", "none");
-    $(".container").find(".card-scitech").parent().css("display", "none");
-    $(".container").find(".card-general").parent().css("display", "none");
-    $(".container").find(".card-trivia").parent().css("display", "none");
-    $(".container").find(".card-others").parent().css("display", "none");
-
-    $(document).attr("title", "Mnemosis | Sports");
+            art.removeClass("active");
+            business.removeClass("active");
+            scitech.removeClass("active");
+            general.removeClass("active");
+            trivia.removeClass("active");
+            sports.removeClass("active");
+            others.removeClass("active");
+        }
+    }
 });
 
 others.on("click", function () {
-    others.addClass("active");
+    if (others.hasClass("active")) {
+        others.removeClass("active");
+        $(".container").find(".card-others").parent().css("display", "none");
+        check(art);
+    } else {
+        others.addClass("active");
 
-    none.removeClass("active");
-    art.removeClass("active");
-    business.removeClass("active");
-    scitech.removeClass("active");
-    general.removeClass("active");
-    trivia.removeClass("active");
-    sports.removeClass("active");
+        $(".container").find(".card-others").parent().show();
+        if (art.hasClass("active") && business.hasClass("active") && scitech.hasClass("active") && general.hasClass("active") && trivia.hasClass("active") && sports.hasClass("active")) {
+            none.addClass("active");
 
-    $(".card").parent().show();
-    $(".container").find(".card-art").parent().css("display", "none");
-    $(".container").find(".card-business").parent().css("display", "none");
-    $(".container").find(".card-scitech").parent().css("display", "none");
-    $(".container").find(".card-general").parent().css("display", "none");
-    $(".container").find(".card-trivia").parent().css("display", "none");
-    $(".container").find(".card-sports").parent().css("display", "none");
-
-    $(document).attr("title", "Mnemosis | Others");
+            art.removeClass("active");
+            business.removeClass("active");
+            scitech.removeClass("active");
+            general.removeClass("active");
+            trivia.removeClass("active");
+            sports.removeClass("active");
+            others.removeClass("active");
+        }
+    }
 });
+
 $(".delete").click(function (){
     $(this).parent().parent().parent().hide();
 })
