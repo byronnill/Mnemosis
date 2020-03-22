@@ -3,6 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="cf80c681-d21d-42aa-8b90-98a0a02c0eaf" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/pages/play_game.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/views/pages/play_game.ejs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/pages/view_leaderboard.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/views/pages/view_leaderboard.ejs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -12,9 +15,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="HTML File" />
         <option value="CSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -40,16 +43,17 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/controller" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="JavaScript.Libraries" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/controller" />
       <recent name="$PROJECT_DIR$" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
+    <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
@@ -107,6 +111,8 @@
       <workItem from="1584149353067" duration="4000" />
       <workItem from="1584168416442" duration="88000" />
       <workItem from="1584193959015" duration="670000" />
+      <workItem from="1584873733311" duration="602000" />
+      <workItem from="1584874628532" duration="2114000" />
     </task>
     <task id="LOCAL-00001" summary="modified main page">
       <created>1582473929608</created>
@@ -175,6 +181,10 @@
       <screen x="-1920" y="23" width="1920" height="1057" />
     </state>
     <state width="1899" height="290" key="GridCell.Tab.0.right/0.23.1680.1027/-1920.23.1920.1057@-1920.23.1920.1057" timestamp="1582658434794" />
+    <state x="341" y="175" key="SettingsEditor" timestamp="1584874867458">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state x="341" y="175" key="SettingsEditor/0.23.1680.1027@0.23.1680.1027" timestamp="1584874867458" />
     <state x="-1360" y="291" key="Vcs.Push.Dialog.v2" timestamp="1582658388547">
       <screen x="-1920" y="23" width="1920" height="1057" />
     </state>
