@@ -16,8 +16,8 @@ const playRoute = require("./controller/play_game");
 const viewGamesRoute = require("./controller/view_games");
 const viewGamesAdminRoute = require("./controller/view_games_admin");
 const viewLeaderboard = require("./controller/view_leaderboard");
-const viewProfileAdminRoute = require("./controller/view_profile_admin");
-const viewProfileAdminUserRoute = require("./controller/view_profile_admin_user");
+const viewProfileAdminRoute = require("./controller/view_profile_self_admin");
+const viewProfileAdminUserRoute = require("./controller/view_profile_user_admin");
 const viewProfileSelf = require("./controller/view_profile_self");
 const viewProfileUserRoute = require("./controller/view_profile_user");
 
@@ -30,8 +30,8 @@ app.use("/play_game", playRoute);
 app.use("/view_games", viewGamesRoute);
 app.use("/view_games_admin", viewGamesAdminRoute);
 app.use("/view_leaderboard", viewLeaderboard);
-app.use("/view_profile_admin", viewProfileAdminRoute);
-app.use("/view_profile_admin_user", viewProfileAdminUserRoute);
+app.use("/view_profile_self_admin", viewProfileAdminRoute);
+app.use("/view_profile_user_admin", viewProfileAdminUserRoute);
 app.use("/view_profile_self", viewProfileSelf);
 app.use("/view_profile_user", viewProfileUserRoute);
 

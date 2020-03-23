@@ -1,24 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <%- include ("../partials/head.ejs") %>
+
     <title>Mnemosis | All Games</title>
-
-    <link rel="stylesheet" href="../../css/bootstrap.css">
-    <link rel="stylesheet" href="../../css/bootstrap-grid.css">
-    <link rel="stylesheet" href="../../css/bootstrap-reboot.css">
-
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-    <script src="//cdn.jsdelivr.net/jquery.color-animation/1/mainfile"></script>
-
-    <script src="../../js/bootstrap.js"></script>
-    <script src="../../js/bootstrap.bundle.js"></script>
-
-    <link rel="stylesheet" href="../../css/general_styles.css">
     <link rel="stylesheet" href="../../css/view_games.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Jura|Quantico">
 </head>
 <body>
     <div class="container mt-5" id="header">
@@ -342,37 +328,9 @@
         </div>
     </div>
 
-    <div class="modal fade" id="myModal">
-        <div class="modal-dialog modal-lg modal-dialog-centered">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h4 class="modal-title heading">Lorem Ipsum</h4>
-                    <button type="button" class="close" data-dismiss="modal">&times;</button>
-                </div>
+    <%- include ("../partials/modal.ejs") %>
 
-                <img src="" class="img-fluid" id="modal-img">
-
-                <div class="modal-body subheading pb-0">
-                    <div id="modal-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ut mi pretium, ullamcorper nisi sit amet, semper risus.</div>
-                    <br>
-                    <small> Categories: </small>
-                </div>
-
-                <div class="container row m-0 mb-2 subheading text-center" id="modal-cats">
-                    <div class="col border"></div>
-                </div>
-
-                <div class="modal-footer">
-                    <small class="modal-author text-muted subheading">Ut et eros nunc</small>
-                    <a type="button" class="btn btn-custom btn-block" href="play_game">Play Game</a>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div class="container-fluid subheading" id="footer">
-        all rights reserved 2020
-    </div>
+    <%- include ("../partials/footer.ejs") %>
 
     <script src="../../js/view_games.js"></script>
 </body>

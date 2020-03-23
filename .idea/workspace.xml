@@ -2,9 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cf80c681-d21d-42aa-8b90-98a0a02c0eaf" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/views/pages/view_profile_self_admin.ejs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/pages/view_profile_user_admin.ejs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/js/view_games.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/view_games.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controller/view_profile_admin.js" beforeDir="false" afterPath="$PROJECT_DIR$/controller/view_profile_self_admin.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controller/view_profile_admin_user.js" beforeDir="false" afterPath="$PROJECT_DIR$/controller/view_profile_user_admin.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/pages/create_game.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/views/pages/create_game.ejs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/pages/homepage.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/views/pages/homepage.ejs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/pages/login_and_register.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/views/pages/login_and_register.ejs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/pages/modify_game.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/views/pages/modify_game.ejs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/pages/play_game.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/views/pages/play_game.ejs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/views/pages/view_games.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/views/pages/view_games.ejs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/pages/view_games_admin.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/views/pages/view_games_admin.ejs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/pages/view_leaderboard.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/views/pages/view_leaderboard.ejs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/pages/view_profile_admin.ejs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/pages/view_profile_admin_user.ejs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/pages/view_profile_self.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/views/pages/view_profile_self.ejs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/pages/view_profile_user.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/views/pages/view_profile_user.ejs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/partials/footer.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/views/partials/footer.ejs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/partials/header.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/views/partials/header.ejs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -118,7 +135,7 @@
       <workItem from="1584880436042" duration="3213000" />
       <workItem from="1584884916666" duration="15000" />
       <workItem from="1584885249361" duration="1621000" />
-      <workItem from="1584943080838" duration="7329000" />
+      <workItem from="1584943080838" duration="10316000" />
     </task>
     <task id="LOCAL-00001" summary="modified main page">
       <created>1582473929608</created>
@@ -204,9 +221,10 @@
       <screen x="-1920" y="23" width="1920" height="1057" />
     </state>
     <state x="-1295" y="256" key="run.anything.popup/0.23.1680.1027/-1920.23.1920.1057@-1920.23.1920.1057" timestamp="1582641199645" />
-    <state x="-1295" y="258" key="search.everywhere.popup" timestamp="1582633401601">
-      <screen x="-1920" y="23" width="1920" height="1057" />
+    <state x="547" y="251" width="670" height="676" key="search.everywhere.popup" timestamp="1584960249967">
+      <screen x="0" y="23" width="1680" height="1027" />
     </state>
     <state x="-1295" y="258" key="search.everywhere.popup/0.23.1680.1027/-1920.23.1920.1057@-1920.23.1920.1057" timestamp="1582633401601" />
+    <state x="547" y="251" width="670" height="676" key="search.everywhere.popup/0.23.1680.1027@0.23.1680.1027" timestamp="1584960249967" />
   </component>
 </project>
