@@ -3,12 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="cf80c681-d21d-42aa-8b90-98a0a02c0eaf" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/create_game.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/create_game.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/modify_game.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/modify_game.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/js/create_game.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/create_game.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/js/modify_game.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/modify_game.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/pages/modify_game.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/views/pages/modify_game.ejs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/partials/alert.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/views/partials/alert.ejs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/homepage.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/homepage.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/pages/homepage.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/views/pages/homepage.ejs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -119,7 +115,7 @@
       <workItem from="1584880436042" duration="3213000" />
       <workItem from="1584884916666" duration="15000" />
       <workItem from="1584885249361" duration="1621000" />
-      <workItem from="1584943080838" duration="12774000" />
+      <workItem from="1584943080838" duration="13362000" />
     </task>
     <task id="LOCAL-00001" summary="modified main page">
       <created>1582473929608</created>
