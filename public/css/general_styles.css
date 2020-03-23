@@ -7,27 +7,23 @@ body {
 }
 
 #header {
-    /*position: fixed;*/
     top: 0;
     width: 100%;
-    align-items: center;
 }
 
 .logo {
     max-height: 300px;
-    float: left;
 }
 
 #over {
     z-index: 2;
-    position: relative;
+    position: absolute;
     animation: crotation 8s infinite linear;
 }
 
 #under {
     z-index: 1;
-    position: relative;
-    left: -300px;
+    position: absolute;
     animation: ccrotation 8s infinite linear;
 }
 
@@ -43,10 +39,8 @@ body {
 
 #titles {
     color: black;
-    position: relative;
-    left: -250px;
     padding-top: 50px;
-    padding-bottom: 0px;
+    padding-bottom: 0;
 }
 
 #web-title {
