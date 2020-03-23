@@ -8,7 +8,9 @@ body {
 
 #header {
     top: 0;
+    /*left: 250px;*/
     width: 100%;
+    /*position: fixed;*/
 }
 
 .logo {
@@ -251,4 +253,12 @@ a.btn:hover {
     background-color: #236A6B;
     color: white;
     text-align: center;
+}
+
+.card-header {
+    height: 30px;
+}
+
+.card-body {
+    height: 200px;
 }
