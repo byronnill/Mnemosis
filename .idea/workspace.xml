@@ -3,26 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="cf80c681-d21d-42aa-8b90-98a0a02c0eaf" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ejs/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/ejs/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/js/view_games.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/view_games.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/media/Sample Images/Desert 1-min.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/media/Sample Images/Desert 2-min.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/media/Sample Images/Desert 3-min.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/media/Sample Images/Desert 5-min.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/media/Sample Images/Desert 7-min.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/media/Sample Images/El Capitan 2-min.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/media/Sample Images/El Capitan-min.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/media/Sample Images/High Sierra-min.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/media/Sample Images/Mavericks-min.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/media/Sample Images/Mojave Day-min.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/media/Sample Images/Sierra 2-min.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/media/Sample Images/Sierra-min.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/media/Sample Images/Yosemite 3-min.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/media/Sample Images/Yosemite 4-min.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/media/Sample Images/Yosemite-min.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/pages/homepage.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/views/pages/homepage.ejs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/views/pages/view_games.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/views/pages/view_games.ejs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/pages/view_games_admin.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/views/pages/view_games_admin.ejs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -136,7 +118,7 @@
       <workItem from="1584880436042" duration="3213000" />
       <workItem from="1584884916666" duration="15000" />
       <workItem from="1584885249361" duration="1621000" />
-      <workItem from="1584943080838" duration="4220000" />
+      <workItem from="1584943080838" duration="7329000" />
     </task>
     <task id="LOCAL-00001" summary="modified main page">
       <created>1582473929608</created>
@@ -181,10 +163,11 @@
       <screen x="-1920" y="23" width="1920" height="1057" />
     </state>
     <state x="-1260" y="361" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1680.1027/-1920.23.1920.1057@-1920.23.1920.1057" timestamp="1582631664026" />
-    <state x="-1222" y="305" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1582632143936">
-      <screen x="-1920" y="23" width="1920" height="1057" />
+    <state x="611" y="297" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1584955985476">
+      <screen x="0" y="23" width="1680" height="1027" />
     </state>
     <state x="-1222" y="305" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1680.1027/-1920.23.1920.1057@-1920.23.1920.1057" timestamp="1582632143936" />
+    <state x="611" y="297" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1680.1027@0.23.1680.1027" timestamp="1584955985476" />
     <state x="-1366" y="154" key="CommitChangelistDialog2" timestamp="1582658384067">
       <screen x="-1920" y="23" width="1920" height="1057" />
     </state>
