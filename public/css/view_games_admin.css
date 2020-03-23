@@ -6,10 +6,6 @@ body {
     transition: 2s;
 }
 
-.card-header {
-    height: 30px;
-}
-
 .card-body {
     height: 250px;
 }
