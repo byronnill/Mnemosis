@@ -117,7 +117,7 @@
       <workItem from="1584943080838" duration="13451000" />
       <workItem from="1584970079878" duration="3562000" />
       <workItem from="1584974607435" duration="46000" />
-      <workItem from="1587363252215" duration="165000" />
+      <workItem from="1587363252215" duration="380000" />
     </task>
     <task id="LOCAL-00001" summary="modified main page">
       <created>1582473929608</created>
@@ -158,10 +158,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="started on searching function" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="-1260" y="361" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1582631664026">
+    <state x="-1260" y="361" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1587363783944">
       <screen x="-1920" y="23" width="1920" height="1057" />
     </state>
-    <state x="-1260" y="361" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1680.1027/-1920.23.1920.1057@-1920.23.1920.1057" timestamp="1582631664026" />
+    <state x="-1260" y="361" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1680.1027/-1920.23.1920.1057@-1920.23.1920.1057" timestamp="1587363783944" />
     <state x="611" y="297" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1584955985476">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
